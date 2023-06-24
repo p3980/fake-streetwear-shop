@@ -5,7 +5,7 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -46,4 +46,32 @@ main {
 
 .product-description {
   margin-bottom: 10px;
+}
+
+/*  */
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
 }
